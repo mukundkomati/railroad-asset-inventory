@@ -1,0 +1,4 @@
+event_type_key,event_type_code,event_type_name,event_type_description
+1,REPL,Replacement,Asset or complete component set replaced with new
+2,REHB,Rehabilitation,Asset restored toward original condition
+3,UPGR,Upgrade,Asset modified to a higher specification

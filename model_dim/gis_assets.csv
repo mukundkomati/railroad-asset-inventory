@@ -1,0 +1,53 @@
+asset_id,asset_name,asset_type_name,asset_class_name,milepost_start,milepost_end,location_type,track,total_cost,planned_fiscal_year,event_type_name,n_events
+CNS-006,Control Point True,Control Point,Communications & Signals,9.1,9.1,Point,,575500.0,FY27,Upgrade,1
+STR-008,Culvert MP 9.6,Culvert,Structures,9.6,9.6,Point,,340000.0,FY28,Replacement,1
+STR-001,Bridge MP 9.9,Bridge,Structures,9.9,9.9,Point,,575000.0,FY32,Rehabilitation,1
+STR-002,Bridge MP 10.2,Bridge,Structures,10.2,10.2,Point,,575000.0,FY32,Rehabilitation,1
+STR-003,Bridge MP 10.3,Bridge,Structures,10.3,10.3,Point,,360000.0,FY29,Rehabilitation,1
+CNS-007,Control Point Tower (Remote),Control Point,Communications & Signals,10.6,10.6,Point,,625500.0,FY27,Upgrade,1
+TRK-014,CP Tower TO MP 10.7,Turnout,Track,10.7,10.7,Point,M2,150000.0,FY28,Replacement,1
+CNS-008,Control Point Tower (Main),Control Point,Communications & Signals,10.75,10.75,Point,,625500.0,FY27,Upgrade,1
+TRK-015,CP Ford TO MP 12.9,Turnout,Track,12.9,12.9,Point,M1/M2,600000.0,FY29,Replacement,1
+CNS-009,Control Point Ford,Control Point,Communications & Signals,12.9,12.9,Point,,575500.0,FY27,Upgrade,1
+STR-004,Bridge MP 13.1,Bridge,Structures,13.1,13.1,Point,,825000.0,FY30,Rehabilitation,1
+TRK-001,Curve MP 14.3 M1,Curve,Track,14.3,14.3,Point,M1,300000.0,FY31,Replacement,1
+TRK-023,T&S Segment M2 MP 15.0-32.5,Track Segment,Track,15.0,32.5,Linear,M2,3500000.0,FY31,Rehabilitation,1
+TRK-022,T&S Segment M1 MP 15.0-32.5,Track Segment,Track,15.0,32.5,Linear,M1,3500000.0,FY30,Rehabilitation,1
+STR-005,Bridge MP 15.0,Bridge,Structures,15.0,15.0,Point,,5690000.0,FY32,Replacement,1
+TRK-009,Union Sta Tie Replacement,Station Track,Track,15.0,15.0,Point,M1,271400.0,FY27,Replacement,1
+CNS-001,Auto 1,Automatic Signal,Communications & Signals,15.2,15.2,Point,,625500.0,FY27,Upgrade,1
+TRK-002,Curve MP 15.3 M1,Curve,Track,15.3,15.3,Point,M1,300000.0,FY31,Replacement,1
+TRK-018,GPO Lead TO MP 16.7,Industry Turnout,Track,16.7,16.7,Point,M1,150000.0,FY28,Replacement,1
+STR-006,Bridge MP 16.9,Bridge,Structures,16.9,16.9,Point,,1235000.0,FY29,Rehabilitation,2
+TRK-003,Curve MP 17.4 M1,Curve,Track,17.4,17.4,Point,M1,300000.0,FY27,Replacement,1
+CNS-002,Auto 2,Automatic Signal,Communications & Signals,17.8,17.8,Point,,625500.0,FY27,Upgrade,1
+TRK-019,Gas Tk TO MP 18.2,Industry Turnout,Track,18.2,18.2,Point,M2,150000.0,FY28,Replacement,1
+TRK-010,Rail Road Sta Tie Replacement,Station Track,Track,19.15,19.15,Point,M1,271400.0,FY27,Replacement,1
+TRK-004,Curve MP 19.4 M1,Curve,Track,19.4,19.4,Point,M1,300000.0,FY30,Replacement,1
+TRK-020,Burke House Tk TO MP 19.8,Industry Turnout,Track,19.8,19.8,Point,M1,150000.0,FY28,Replacement,1
+CNS-010,Control Point Kennedy,Control Point,Communications & Signals,19.89,19.89,Point,,701000.0,FY27,Upgrade,1
+TRK-011,Mall Center Sta Tie Replacement,Station Track,Track,21.4,21.4,Point,M1,271400.0,FY27,Replacement,1
+TRK-005,Curve MP 21.5 M2,Curve,Track,21.5,21.5,Point,M2,300000.0,FY30,Replacement,1
+CNS-003,Auto 3,Automatic Signal,Communications & Signals,22.3,22.3,Point,,601000.0,FY27,Upgrade,1
+STR-009,Culvert MP 22.6,Culvert,Structures,22.6,22.6,Point,,365000.0,FY28,Replacement,1
+STR-010,Culvert MP 23.6,Culvert,Structures,23.6,23.6,Point,,490000.0,FY28,Replacement,1
+CNS-004,Auto 4,Automatic Signal,Communications & Signals,24.7,24.7,Point,,601000.0,FY27,Upgrade,1
+CNS-011,Control Point Eva (Main),Control Point,Communications & Signals,26.8,26.8,Point,,601000.0,FY27,Upgrade,1
+CNS-014,Main St Crossing,Grade Crossing Signal,Communications & Signals,26.81,26.81,Point,,651000.0,FY28,Upgrade,1
+CNS-012,Control Point Eva (Remote),Control Point,Communications & Signals,26.95,26.95,Point,,651000.0,FY28,Upgrade,1
+TRK-021,Maryland Power TO MP 27.25,Industry Turnout,Track,27.25,27.25,Point,M2,150000.0,FY28,Replacement,1
+STR-007,Bridge MP 28.8,Bridge,Structures,28.8,28.8,Point,,1112330.3167420814,FY30,Rehabilitation,2
+TRK-007,Curve MP 29.1 M2,Curve,Track,29.1,29.1,Point,M2,300000.0,FY27,Replacement,1
+TRK-006,Curve MP 29.1 M1,Curve,Track,29.1,29.1,Point,M1,300000.0,FY29,Replacement,1
+TRK-008,Curve MP 30.0 M1,Curve,Track,30.0,30.0,Point,M1,300000.0,FY29,Replacement,1
+CNS-005,Auto 5,Automatic Signal,Communications & Signals,30.22,30.22,Point,,595000.0,FY28,Upgrade,1
+TRK-012,Central Sta Tie Replacement,Station Track,Track,30.5,30.5,Point,M1,271400.0,FY27,Replacement,1
+CNS-015,Broadway Crossing,Grade Crossing Signal,Communications & Signals,30.68,30.68,Point,,645000.0,FY28,Upgrade,1
+STR-011,Culvert MP 31.3,Culvert,Structures,31.3,31.3,Point,,240000.0,FY29,Replacement,1
+STR-012,Culvert MP 31.8,Culvert,Structures,31.8,31.8,Point,,340000.0,FY29,Replacement,1
+CNS-016,Simpsons Rd Crossing,Grade Crossing Signal,Communications & Signals,31.9,31.9,Point,,645000.0,FY28,Upgrade,1
+CNS-013,Control Point Moore,Control Point,Communications & Signals,32.44,32.44,Point,,595000.0,FY28,Upgrade,1
+TRK-016,CP Moore TO MP 32.44,Turnout,Track,32.44,32.44,Point,M1/M2,300000.0,FY28,Replacement,1
+CNS-017,Rodeo Dr Crossing,Grade Crossing Signal,Communications & Signals,32.6,32.6,Point,,645000.0,FY29,Upgrade,1
+TRK-013,Main Street Sta Tie Replacement,Station Track,Track,32.6,32.6,Point,M1,271400.0,FY27,Replacement,1
+CNS-018,North St Crossing,Grade Crossing Signal,Communications & Signals,32.65,32.65,Point,,645000.0,FY29,Upgrade,1

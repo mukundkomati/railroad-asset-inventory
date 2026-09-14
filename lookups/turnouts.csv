@@ -1,0 +1,8 @@
+source_row,name,milepost,track,quantity,is_industry,assigned_fy,fy_basis
+A23,Burke House Tk,19.8,M1,1,1,FY28,"Not CP Ford; falls in J8 = I23*7"
+A24,GPO Lead,16.7,M1,1,1,FY28,"Not CP Ford; falls in J8 = I23*7"
+A25,Gas Tk,18.2,M2,1,1,FY28,"Not CP Ford; falls in J8 = I23*7"
+A26,Maryland Power,27.25,M2,1,1,FY28,"Not CP Ford; falls in J8 = I23*7"
+A27,CP Moore,32.44,M1/M2,2,0,FY28,"Not CP Ford; falls in J8 = I23*7"
+A28,CP Ford,12.9,M1/M2,4,0,FY29,"K8 = I23*4 and CP Ford is the only qty-4 row"
+A29,CP Tower,10.7,M2,1,0,FY28,"Not CP Ford; falls in J8 = I23*7"

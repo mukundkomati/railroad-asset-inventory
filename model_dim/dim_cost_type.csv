@@ -1,0 +1,5 @@
+cost_type_key,cost_type_code,cost_type_name,cost_scope,includes_design,includes_material,includes_construction
+1,DSGN,Design,Engineering and design only,1,0,0
+2,MATL,Material,Materials only,0,1,0
+3,CNST,Construction,"Construction labour, materials separate",0,0,1
+4,CWM,Construction w/ Materials,Construction and materials combined,0,1,1

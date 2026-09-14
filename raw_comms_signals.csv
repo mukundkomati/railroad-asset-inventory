@@ -1,0 +1,55 @@
+phase,cost_type,milepost,location_name,estimated_cost,quarter,calendar_year,source_ref
+1,Design,9.1,Control Point True,50000,Q1,2026,Comms and Signals!D2
+1,Design,10.6,Control Point Tower (Remote),50000,Q1,2026,Comms and Signals!D3
+1,Design,10.75,Control Point Tower (Main),50000,Q1,2026,Comms and Signals!D4
+1,Material,9.1,Control Point True,150000,Q2,2026,Comms and Signals!D6
+1,Material,10.6,Control Point Tower (Remote),200000,Q2,2026,Comms and Signals!D7
+1,Material,10.75,Control Point Tower (Main),200000,Q2,2026,Comms and Signals!D8
+1,Construction,9.1,Control Point True,375500,Q3,2026,Comms and Signals!D10
+1,Construction,10.6,Control Point Tower (Remote),375500,Q3,2026,Comms and Signals!D11
+1,Construction,10.75,Control Point Tower (Main),375500,Q3,2026,Comms and Signals!D12
+1,Design,12.9,Control Point Ford,50000,Q2,2026,Comms and Signals!D14
+1,Design,15.2,Auto 1,50000,Q2,2026,Comms and Signals!D15
+1,Design,17.8,Auto 2,50000,Q2,2026,Comms and Signals!D16
+1,Material,12.9,Control Point Ford,150000,Q3,2026,Comms and Signals!D18
+1,Material,15.2,Auto 1,200000,Q3,2026,Comms and Signals!D19
+1,Material,17.8,Auto 2,200000,Q3,2026,Comms and Signals!D20
+1,Construction,12.9,Control Point Ford,375500,Q4,2026,Comms and Signals!D22
+1,Construction,15.2,Auto 1,375500,Q4,2026,Comms and Signals!D23
+1,Construction,17.8,Auto 2,375500,Q4,2026,Comms and Signals!D24
+2,Design,19.89,Control Point Kennedy,51000,Q2,2026,Comms and Signals!J2
+2,Design,22.3,Auto 3,51000,Q2,2026,Comms and Signals!J3
+2,Design,24.7,Auto 4,51000,Q2,2026,Comms and Signals!J4
+2,Material,19.89,Control Point Kennedy,250000,Q1,2027,Comms and Signals!J6
+2,Material,22.3,Auto 3,150000,Q1,2027,Comms and Signals!J7
+2,Material,24.7,Auto 4,150000,Q1,2027,Comms and Signals!J8
+2,Construction,19.89,Control Point Kennedy,400000,Q1,2027,Comms and Signals!J10
+2,Construction,22.3,Auto 3,400000,Q1,2027,Comms and Signals!J11
+2,Construction,24.7,Auto 4,400000,Q1,2027,Comms and Signals!J12
+2,Design,26.8,Control Point Eva (Main),51000,Q3,2026,Comms and Signals!J14
+2,Design,26.81,Main St Crossing,51000,Q3,2026,Comms and Signals!J15
+2,Design,26.95,Control Point Eva (Remote),51000,Q3,2026,Comms and Signals!J16
+2,Material,26.8,Control Point Eva (Main),150000,Q2,2027,Comms and Signals!J18
+2,Material,26.81,Main St Crossing,200000,Q2,2027,Comms and Signals!J19
+2,Material,26.95,Control Point Eva (Remote),200000,Q2,2027,Comms and Signals!J20
+2,Construction,26.8,Control Point Eva (Main),400000,Q2,2027,Comms and Signals!J22
+2,Construction,26.81,Main St Crossing,400000,Q3,2027,Comms and Signals!J23
+2,Construction,26.95,Control Point Eva (Remote),400000,Q3,2027,Comms and Signals!J24
+3,Design,30.22,Auto 5,45000,Q3,2027,Comms and Signals!P2
+3,Design,30.68,Broadway Crossing,45000,Q3,2027,Comms and Signals!P3
+3,Design,31.9,Simpsons Rd Crossing,45000,Q3,2027,Comms and Signals!P4
+3,Material,30.22,Auto 5,150000,Q1,2028,Comms and Signals!P6
+3,Material,30.68,Broadway Crossing,200000,Q1,2028,Comms and Signals!P7
+3,Material,31.9,Simpsons Rd Crossing,200000,Q1,2028,Comms and Signals!P8
+3,Construction,30.22,Auto 5,400000,Q1,2028,Comms and Signals!P10
+3,Construction,30.68,Broadway Crossing,400000,Q1,2028,Comms and Signals!P11
+3,Construction,31.9,Simpsons Rd Crossing,400000,Q1,2028,Comms and Signals!P12
+3,Design,32.44,Control Point Moore,45000,Q4,2027,Comms and Signals!P14
+3,Design,32.6,Rodeo Dr Crossing,45000,Q4,2027,Comms and Signals!P15
+3,Design,32.65,North St Crossing,45000,Q4,2027,Comms and Signals!P16
+3,Material,32.44,Control Point Moore,150000,Q2,2028,Comms and Signals!P18
+3,Material,32.6,Rodeo Dr Crossing,200000,Q2,2028,Comms and Signals!P19
+3,Material,32.65,North St Crossing,200000,Q2,2028,Comms and Signals!P20
+3,Construction,32.44,Control Point Moore,400000,Q2,2028,Comms and Signals!P22
+3,Construction,32.6,Rodeo Dr Crossing,400000,Q3,2028,Comms and Signals!P23
+3,Construction,32.65,North St Crossing,400000,Q3,2028,Comms and Signals!P24

@@ -1,0 +1,54 @@
+asset_key,asset_id,asset_name,asset_type_key,milepost_start,milepost_end,track,quantity,quantity_uom,branch,division,subdivision,location_source,source_ref
+1,CNS-001,Auto 1,2,15.2,15.2,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!D15
+2,CNS-002,Auto 2,2,17.8,17.8,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!D16
+3,CNS-003,Auto 3,2,22.3,22.3,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!J3
+4,CNS-004,Auto 4,2,24.7,24.7,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!J4
+5,CNS-005,Auto 5,2,30.22,30.22,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!P2
+6,STR-001,Bridge MP 9.9,9,9.9,9.9,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!I24
+7,STR-002,Bridge MP 10.2,9,10.2,10.2,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!I24
+8,STR-003,Bridge MP 10.3,9,10.3,10.3,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!I13
+9,STR-004,Bridge MP 13.1,9,13.1,13.1,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!I18
+10,STR-005,Bridge MP 15.0,9,15.0,15.0,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!I23
+11,STR-006,Bridge MP 16.9,9,16.9,16.9,,884.0,ties,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!I13
+12,STR-007,Bridge MP 28.8,9,28.8,28.8,,254.0,ties,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!I18
+13,CNS-006,Control Point True,1,9.1,9.1,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!D2
+14,CNS-007,Control Point Tower (Remote),1,10.6,10.6,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!D3
+15,CNS-008,Control Point Tower (Main),1,10.75,10.75,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!D4
+16,CNS-009,Control Point Ford,1,12.9,12.9,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!D14
+17,CNS-010,Control Point Kennedy,1,19.89,19.89,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!J2
+18,CNS-011,Control Point Eva (Main),1,26.8,26.8,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!J14
+19,CNS-012,Control Point Eva (Remote),1,26.95,26.95,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!J16
+20,CNS-013,Control Point Moore,1,32.44,32.44,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!P14
+21,STR-008,Culvert MP 9.6,10,9.6,9.6,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!F11
+22,STR-009,Culvert MP 22.6,10,22.6,22.6,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!F11
+23,STR-010,Culvert MP 23.6,10,23.6,23.6,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!F11
+24,STR-011,Culvert MP 31.3,10,31.3,31.3,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!F11
+25,STR-012,Culvert MP 31.8,10,31.8,31.8,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,6YR Structures!F11
+26,TRK-001,Curve MP 14.3 M1,4,14.3,14.3,M1,1.0,curve,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A12
+27,TRK-002,Curve MP 15.3 M1,4,15.3,15.3,M1,1.0,curve,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A11
+28,TRK-003,Curve MP 17.4 M1,4,17.4,17.4,M1,1.0,curve,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A5
+29,TRK-004,Curve MP 19.4 M1,4,19.4,19.4,M1,1.0,curve,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A10
+30,TRK-005,Curve MP 21.5 M2,4,21.5,21.5,M2,1.0,curve,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A9
+31,TRK-006,Curve MP 29.1 M1,4,29.1,29.1,M1,1.0,curve,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A8
+32,TRK-007,Curve MP 29.1 M2,4,29.1,29.1,M2,1.0,curve,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A6
+33,TRK-008,Curve MP 30.0 M1,4,30.0,30.0,M1,1.0,curve,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A7
+34,TRK-009,Union Sta Tie Replacement,8,15.0,15.0,M1,1.0,station,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!E13
+35,TRK-010,Rail Road Sta Tie Replacement,8,19.15,19.15,M1,1.0,station,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!E12
+36,TRK-011,Mall Center Sta Tie Replacement,8,21.4,21.4,M1,1.0,station,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!E11
+37,TRK-012,Central Sta Tie Replacement,8,30.5,30.5,M1,1.0,station,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!E10
+38,TRK-013,Main Street Sta Tie Replacement,8,32.6,32.6,M1,1.0,station,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!E9
+39,TRK-014,CP Tower TO MP 10.7,5,10.7,10.7,M2,1.0,turnouts,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A29
+40,TRK-015,CP Ford TO MP 12.9,5,12.9,12.9,M1/M2,4.0,turnouts,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A28
+41,TRK-016,CP Moore TO MP 32.44,5,32.44,32.44,M1/M2,2.0,turnouts,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A27
+42,TRK-017,Unknown Turnout,5,,,,,,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!I8
+43,TRK-018,GPO Lead TO MP 16.7,6,16.7,16.7,M1,1.0,turnouts,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A24
+44,TRK-019,Gas Tk TO MP 18.2,6,18.2,18.2,M2,1.0,turnouts,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A25
+45,TRK-020,Burke House Tk TO MP 19.8,6,19.8,19.8,M1,1.0,turnouts,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A23
+46,TRK-021,Maryland Power TO MP 27.25,6,27.25,27.25,M2,1.0,turnouts,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!A26
+47,TRK-022,T&S Segment M1 MP 15.0-32.5,7,15.0,32.5,M1,17.5,track miles,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!E5
+48,TRK-023,T&S Segment M2 MP 15.0-32.5,7,15.0,32.5,M2,17.5,track miles,Westport,Central,Hanover,Assignment brief - not in the source workbook,TS Program Est!E5
+49,CNS-014,Main St Crossing,3,26.81,26.81,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!J15
+50,CNS-015,Broadway Crossing,3,30.68,30.68,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!P3
+51,CNS-016,Simpsons Rd Crossing,3,31.9,31.9,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!P4
+52,CNS-017,Rodeo Dr Crossing,3,32.6,32.6,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!P15
+53,CNS-018,North St Crossing,3,32.65,32.65,,1.0,unit,Westport,Central,Hanover,Assignment brief - not in the source workbook,Comms and Signals!P16

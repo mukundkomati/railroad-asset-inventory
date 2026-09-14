@@ -1,0 +1,24 @@
+program,asset_name,asset_kind,milepost_start,milepost_end,track,quantity,quantity_uom,is_industry,amount,fiscal_year,allocation_method,source_ref,cost_type
+Curve Rail Replacement,Curve MP 17.4 M1,Curve,17.4,17.4,M1,1.0,curve,0,300000.0,FY27,Unit rate I27,TS Program Est!A5,Construction w/ Materials
+Curve Rail Replacement,Curve MP 29.1 M2,Curve,29.1,29.1,M2,1.0,curve,0,300000.0,FY27,Unit rate I27,TS Program Est!A6,Construction w/ Materials
+Curve Rail Replacement,Curve MP 30.0 M1,Curve,30.0,30.0,M1,1.0,curve,0,300000.0,FY29,Unit rate I27,TS Program Est!A7,Construction w/ Materials
+Curve Rail Replacement,Curve MP 29.1 M1,Curve,29.1,29.1,M1,1.0,curve,0,300000.0,FY29,Unit rate I27,TS Program Est!A8,Construction w/ Materials
+Curve Rail Replacement,Curve MP 21.5 M2,Curve,21.5,21.5,M2,1.0,curve,0,300000.0,FY30,Unit rate I27,TS Program Est!A9,Construction w/ Materials
+Curve Rail Replacement,Curve MP 19.4 M1,Curve,19.4,19.4,M1,1.0,curve,0,300000.0,FY30,Unit rate I27,TS Program Est!A10,Construction w/ Materials
+Curve Rail Replacement,Curve MP 15.3 M1,Curve,15.3,15.3,M1,1.0,curve,0,300000.0,FY31,Unit rate I27,TS Program Est!A11,Construction w/ Materials
+Curve Rail Replacement,Curve MP 14.3 M1,Curve,14.3,14.3,M1,1.0,curve,0,300000.0,FY31,Unit rate I27,TS Program Est!A12,Construction w/ Materials
+Timber & Surfacing,T&S Segment M1 MP 15.0-32.5,Track Segment,15.0,32.5,M1,17.5,track miles,0,3500000.0,FY30,Unit rate I18; mainline-to-year split assumed,TS Program Est!E5,Construction w/ Materials
+Timber & Surfacing,T&S Segment M2 MP 15.0-32.5,Track Segment,15.0,32.5,M2,17.5,track miles,0,3500000.0,FY31,Unit rate I18; mainline-to-year split assumed,TS Program Est!E5,Construction w/ Materials
+Turnout Replacement,Burke House Tk TO MP 19.8,Industry Turnout,19.8,19.8,M1,1.0,turnouts,1,150000.0,FY28,Unit rate I23; FY basis: Not CP Ford; falls in J8 = I23*7,TS Program Est!A23,Construction w/ Materials
+Turnout Replacement,GPO Lead TO MP 16.7,Industry Turnout,16.7,16.7,M1,1.0,turnouts,1,150000.0,FY28,Unit rate I23; FY basis: Not CP Ford; falls in J8 = I23*7,TS Program Est!A24,Construction w/ Materials
+Turnout Replacement,Gas Tk TO MP 18.2,Industry Turnout,18.2,18.2,M2,1.0,turnouts,1,150000.0,FY28,Unit rate I23; FY basis: Not CP Ford; falls in J8 = I23*7,TS Program Est!A25,Construction w/ Materials
+Turnout Replacement,Maryland Power TO MP 27.25,Industry Turnout,27.25,27.25,M2,1.0,turnouts,1,150000.0,FY28,Unit rate I23; FY basis: Not CP Ford; falls in J8 = I23*7,TS Program Est!A26,Construction w/ Materials
+Turnout Replacement,CP Moore TO MP 32.44,Turnout,32.44,32.44,M1/M2,2.0,turnouts,0,300000.0,FY28,Unit rate I23; FY basis: Not CP Ford; falls in J8 = I23*7,TS Program Est!A27,Construction w/ Materials
+Turnout Replacement,CP Ford TO MP 12.9,Turnout,12.9,12.9,M1/M2,4.0,turnouts,0,600000.0,FY29,Unit rate I23; FY basis: K8 = I23*4 and CP Ford is the only qty-4 row,TS Program Est!A28,Construction w/ Materials
+Turnout Replacement,CP Tower TO MP 10.7,Turnout,10.7,10.7,M2,1.0,turnouts,0,150000.0,FY28,Unit rate I23; FY basis: Not CP Ford; falls in J8 = I23*7,TS Program Est!A29,Construction w/ Materials
+Turnout Replacement,Unknown Turnout,Turnout,,,,,,0,80000.0,FY27,Unattributed - I8 has no turnout to attach to,TS Program Est!I8,Construction w/ Materials
+Stations Tie Replacement,Main Street Sta Tie Replacement,Station Track,32.6,32.6,M1,1.0,station,0,271400.0,FY27,Even split of I7 - no unit rate exists,TS Program Est!E9,Construction w/ Materials
+Stations Tie Replacement,Central Sta Tie Replacement,Station Track,30.5,30.5,M1,1.0,station,0,271400.0,FY27,Even split of I7 - no unit rate exists,TS Program Est!E10,Construction w/ Materials
+Stations Tie Replacement,Mall Center Sta Tie Replacement,Station Track,21.4,21.4,M1,1.0,station,0,271400.0,FY27,Even split of I7 - no unit rate exists,TS Program Est!E11,Construction w/ Materials
+Stations Tie Replacement,Rail Road Sta Tie Replacement,Station Track,19.15,19.15,M1,1.0,station,0,271400.0,FY27,Even split of I7 - no unit rate exists,TS Program Est!E12,Construction w/ Materials
+Stations Tie Replacement,Union Sta Tie Replacement,Station Track,15.0,15.0,M1,1.0,station,0,271400.0,FY27,Even split of I7 - no unit rate exists,TS Program Est!E13,Construction w/ Materials

@@ -1,0 +1,27 @@
+program,work_group,event_type,asset_name,asset_kind,milepost_start,milepost_end,quantity,quantity_uom,cost_type,amount,fiscal_year,description,allocation_method,source_ref
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 9.6,Culvert,9.6,9.6,,,Design,40000.0,FY27,,Even split across 5 mileposts,6YR Structures!F11
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 22.6,Culvert,22.6,22.6,,,Design,40000.0,FY27,,Even split across 5 mileposts,6YR Structures!F11
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 23.6,Culvert,23.6,23.6,,,Design,40000.0,FY27,,Even split across 5 mileposts,6YR Structures!F11
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 31.3,Culvert,31.3,31.3,,,Design,40000.0,FY27,,Even split across 5 mileposts,6YR Structures!F11
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 31.8,Culvert,31.8,31.8,,,Design,40000.0,FY27,,Even split across 5 mileposts,6YR Structures!F11
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 9.6,Culvert,9.6,9.6,,,Construction w/ Materials,300000.0,FY28,,Stated,6YR Structures!F13
+Bridge Repairs/Replacements,Retaining Structures,Rehabilitation,Bridge MP 10.3,Bridge,10.3,10.3,,,Design,60000.0,FY28,Engineering - 10.3 & 16.9 - retaining structures,Even split across 2 mileposts,6YR Structures!I13
+Bridge Repairs/Replacements,Retaining Structures,Rehabilitation,Bridge MP 16.9,Bridge,16.9,16.9,,,Design,60000.0,FY28,Engineering - 10.3 & 16.9 - retaining structures,Even split across 2 mileposts,6YR Structures!I13
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 22.6,Culvert,22.6,22.6,,,Construction w/ Materials,325000.0,FY28,,Stated,6YR Structures!F14
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 23.6,Culvert,23.6,23.6,,,Construction w/ Materials,450000.0,FY28,,Stated,6YR Structures!F15
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 31.3,Culvert,31.3,31.3,,,Construction w/ Materials,200000.0,FY29,,Stated,6YR Structures!F16
+Bridge Repairs/Replacements,Retaining Structures,Rehabilitation,Bridge MP 10.3,Bridge,10.3,10.3,,,Construction w/ Materials,300000.0,FY29,Install Ballast retainers,Stated,6YR Structures!I16
+Culvert Replacement,Culvert Replacement,Replacement,Culvert MP 31.8,Culvert,31.8,31.8,,,Construction w/ Materials,300000.0,FY29,,Stated,6YR Structures!F17
+Bridge Repairs/Replacements,Retaining Structures,Rehabilitation,Bridge MP 16.9,Bridge,16.9,16.9,,,Construction w/ Materials,175000.0,FY29,Install wingwall / retaining wall,Stated,6YR Structures!I17
+Bridge Repairs/Replacements,Concrete Encasement,Rehabilitation,Bridge MP 13.1,Bridge,13.1,13.1,,,Design,75000.0,FY29,Concrete Encasemet/Rehabilitation - Engineering,Even split across 2 mileposts,6YR Structures!I18
+Bridge Repairs/Replacements,Concrete Encasement,Rehabilitation,Bridge MP 28.8,Bridge,28.8,28.8,,,Design,75000.0,FY29,Concrete Encasemet/Rehabilitation - Engineering,Even split across 2 mileposts,6YR Structures!I18
+Bridge Tie Deck Renewal,Tie Deck Renewal,Replacement,Bridge MP 16.9,Bridge,16.9,16.9,884.0,ties,Construction w/ Materials,1000000.0,FY30,,Stated,6YR Structures!D20
+Bridge Repairs/Replacements,Concrete Encasement,Rehabilitation,Bridge MP 13.1,Bridge,13.1,13.1,,,Construction w/ Materials,750000.0,FY30,Concrete Encasemet/Rehabilitation,Even split across 2 mileposts,6YR Structures!I20
+Bridge Repairs/Replacements,Concrete Encasement,Rehabilitation,Bridge MP 28.8,Bridge,28.8,28.8,,,Construction w/ Materials,750000.0,FY30,Concrete Encasemet/Rehabilitation,Even split across 2 mileposts,6YR Structures!I20
+Bridge Tie Deck Renewal,Tie Deck Renewal,Replacement,Bridge MP 28.8,Bridge,28.8,28.8,254.0,ties,Construction w/ Materials,287330.3167420814,FY31,,Stated,6YR Structures!D23
+Bridge Repairs/Replacements,Span Replacement,Replacement,Bridge MP 15.0,Bridge,15.0,15.0,,,Design,190000.0,FY31,Span Replacement - Engineering,Stated,6YR Structures!I23
+Bridge Repairs/Replacements,Steel Repairs,Rehabilitation,Bridge MP 9.9,Bridge,9.9,9.9,,,Design,75000.0,FY31,Steel repairs - Engineering,Even split across 2 mileposts,6YR Structures!I24
+Bridge Repairs/Replacements,Steel Repairs,Rehabilitation,Bridge MP 10.2,Bridge,10.2,10.2,,,Design,75000.0,FY31,Steel repairs - Engineering,Even split across 2 mileposts,6YR Structures!I24
+Bridge Repairs/Replacements,Steel Repairs,Rehabilitation,Bridge MP 9.9,Bridge,9.9,9.9,,,Construction w/ Materials,500000.0,FY32,Steel repairs,Even split across 2 mileposts,6YR Structures!I26
+Bridge Repairs/Replacements,Steel Repairs,Rehabilitation,Bridge MP 10.2,Bridge,10.2,10.2,,,Construction w/ Materials,500000.0,FY32,Steel repairs,Even split across 2 mileposts,6YR Structures!I26
+Bridge Repairs/Replacements,Span Replacement,Replacement,Bridge MP 15.0,Bridge,15.0,15.0,,,Construction w/ Materials,5500000.0,FY32,Span replacements,Stated,6YR Structures!I27

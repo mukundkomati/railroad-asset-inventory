@@ -1,0 +1,11 @@
+asset_type_key,asset_type_code,asset_type_name,asset_class_code,asset_type_description,asset_class_key
+1,CP,Control Point,CNS,Dispatcher-controlled signal and switch location,3
+2,AUTO,Automatic Signal,CNS,Intermediate signal driven by track circuit occupancy,3
+3,XING,Grade Crossing Signal,CNS,Highway-rail crossing warning equipment,3
+4,CURV,Curve,TRK,Curved track subject to accelerated rail wear,1
+5,TO,Turnout,TRK,Switch assembly on or between mainlines,1
+6,TOI,Industry Turnout,TRK,Switch assembly serving an industry track or lead,1
+7,TSEG,Track Segment,TRK,Linear run under the timber and surfacing programme,1
+8,STA,Station Track,TRK,Track within a station area,1
+9,BRDG,Bridge,STR,Structure carrying track over a gap,2
+10,CULV,Culvert,STR,Drainage structure through an embankment,2
