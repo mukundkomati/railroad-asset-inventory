@@ -44,19 +44,7 @@ vpra_map.qgz          QGIS project
 Kimball, snowflaked on asset class. Grain is one row per event, per cost type,
 per period.
 
-```
-fact_cost
-  -> dim_cost_type
-  -> dim_fiscal_period          always set
-  -> dim_calendar_period        null where there is no quarter
-  -> dim_event
-       -> dim_event_type
-       -> dim_work_group
-       -> dim_fiscal_period     planned year
-       -> dim_asset
-            -> dim_asset_type
-                 -> dim_asset_class
-```
+![ERD](erd.png)
 
 Two period dimensions because the tabs disagree on grain. Comms & Signals gives
 a calendar quarter, the other two give a fiscal year only. Fiscal year is the
