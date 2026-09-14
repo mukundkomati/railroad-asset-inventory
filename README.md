@@ -1,128 +1,125 @@
-# Railroad Asset Inventory
 
-Data model and GIS visualisation for a railroad capital programme covering
-track, structures, and comms & signal equipment. Built from the supplied
-workbook and mapped onto the FRA rail network at Westport Branch / Central
-Division / Hanover Subdivision.
+# Data Pipeline Project
 
-53 assets, 55 lifecycle events, 103 cost records, $35,863,330.32.
+## Overview
+This project contains three Spark-based data pipeline scripts designed to process, analyze, and store retail sales data sourced from Amazon S3. The scripts utilize PySpark to handle data ingestion, transformation, analysis, and storage. These scripts are:
+1. **data_pipeline_sql.py**: SQL-based analysis of the retail sales dataset.
+2. **data_pipeline_autopilot.py**: Automated data processing with train-test split.
+3. **data_pipeline.py**: Comprehensive data processing and aggregation.
 
-## Running it
+## Prerequisites
+Before running the scripts, ensure you have the following set up:
 
-Needs pandas, openpyxl, geopandas, shapely.
+- **Apache Spark** (version 3.3.2 or compatible)
+- **Hadoop AWS package** (version 3.3.2 or compatible) 
+- **AWS credentials** with access to the S3 bucket containing the retail sales dataset.
+- **Python 3.7+** with required libraries (PySpark, AWS SDKs, etc.).
 
-```bash
-python extract_comms_signals.py
-python extract_ts_program.py
-python extract_structures.py
-python build_dimensional_model.py
-python place_assets.py
+Ensure AWS credentials are properly configured, either via environment variables, configuration files, or IAM roles.
+
+---
+
+## Scripts Breakdown
+
+### 1. **data_pipeline_sql.py**
+This script ingests retail sales data from an S3 bucket, transforms it, and performs SQL-based analytical queries on it.
+
+#### Key Features
+- **Data Ingestion**: Reads CSV from S3 using PySpark.
+- **Data Transformation**: Extracts 'Year' and 'Month' from the 'transaction_date'.
+- **SQL Queries**: Executes 5 SQL queries:
+  1. **Top-Performing Regions** - Identifies customer locations with the highest revenue.
+  2. **Month-over-Month Revenue Growth** - Analyzes revenue growth over time.
+  3. **Most Popular Product Categories** - Determines the top 5 most-sold product categories.
+  4. **Top 5 Customers** - Identifies top customers by total transaction value.
+  5. **Most Used Payment Methods** - Tracks revenue and usage count for different payment methods.
+
+#### Usage
+```
+spark-submit data_pipeline_sql.py
 ```
 
-First three read the workbook, one per tab, and write a flat CSV each. Fourth
-builds the model into `model_dim/`. Fifth places the assets on the line and
-writes `asset_inventory.gpkg`.
+---
 
-Every script checks itself as it goes. 66 checks total, all passing.
+### 2. **data_pipeline_autopilot.py**
+This script ingests, processes, and splits the retail sales dataset into training and testing datasets for further machine learning applications.
 
-## Layout
+#### Key Features
+- **Data Ingestion**: Reads CSV from S3.
+- **Data Transformation**: Extracts 'Year', 'Month', and 'Hour' from 'transaction_date'.
+- **Data Aggregation**: Computes key metrics for six-hour batch intervals, including revenue, customer demographics, and product category counts.
+- **Data Split**: Splits the processed data into **train (75%)** and **test (25%)** datasets.
+- **Data Export**: Saves train and test datasets back to S3.
 
+#### Usage
 ```
-*.py                  the pipeline, in the order above
-lookups/              turnout, station and structure-event lists that had to
-                      be read by hand rather than parsed
-raw_*.csv             one row per asset per cost type, still at source grain
-model_dim/            1 fact table, 9 dimensions, plus an xlsx of all ten
-*.gpkg                the rail line, the FRA mileposts, the placed assets
-vpra_map.qgz          QGIS project
-*.png                 exported maps
+spark-submit data_pipeline_autopilot.py
 ```
 
-## The model
+---
 
-Kimball, snowflaked on asset class. Grain is one row per event, per cost type,
-per period.
+### 3. **data_pipeline.py**
+This script processes and aggregates the retail sales dataset to generate insights on customer locations, spending trends, and customer transaction data.
 
+#### Key Features
+- **Data Ingestion**: Reads CSV from S3 using PySpark.
+- **Data Transformation**: Extracts 'Year' and 'Month' from 'transaction_date'.
+- **Data Aggregation**: Performs the following analysis:
+  - **Total Revenue by Customer Location**
+  - **Monthly Spending Trends**
+  - **Top 10 Customers by Transaction Value**
+- **Data Export**: Saves aggregated datasets (Total Revenue, Monthly Spending Trends, Top 10 Customers) back to S3.
+
+#### Usage
 ```
-fact_cost
-  -> dim_cost_type
-  -> dim_fiscal_period          always set
-  -> dim_calendar_period        null where there is no quarter
-  -> dim_event
-       -> dim_event_type
-       -> dim_work_group
-       -> dim_fiscal_period     planned year
-       -> dim_asset
-            -> dim_asset_type
-                 -> dim_asset_class
+spark-submit data_pipeline.py
 ```
 
-Two period dimensions because the tabs disagree on grain. Comms & Signals gives
-a calendar quarter, the other two give a fiscal year only. Fiscal year is the
-one they share so it is on every row; the calendar key is null on the 49 rows
-that have no quarter.
+---
 
-Every cost row keeps a `source_ref` back to the cell it came from and an
-`allocation_code` saying how it was arrived at.
+## Project Structure
+```
+project-folder/
+├── data_pipeline_sql.py           # SQL-based analysis pipeline
+├── data_pipeline_autopilot.py     # Auto-processing with train-test split
+├── data_pipeline.py               # Comprehensive data processing
+└── README.md                      # Project documentation
+```
 
-## Assumptions
+---
 
-**$80,000 in I8 has no owner.** The eleven turnouts are covered by J8 and K8.
-This is left over with no location and no description. Carried as an "Unknown
-Turnout" with no milepost so Track still ties to $12,487,000. Not mapped.
+## Execution Instructions
 
-**CP Ford's four turnouts are FY29, the rest FY28.** K8 is the rate times four
-and CP Ford is the only quantity-four row. FY28 and FY29 both reconcile
-separately, not just the total.
+1. **Setup Environment**
+   - Install Spark and Hadoop libraries.
+   - Configure AWS credentials.
 
-**T&S does M1 first.** The matrix splits $7,000,000 across FY30 and FY31 but
-never says which mainline goes first. Reverse it and $3.5M moves years.
+2. **Run the Scripts**
+   - Run one of the scripts using the following command:
+     ```bash
+     spark-submit <script_name>.py
+     ```
 
-**Even splits where nothing better exists.** Five culverts share a design
-figure, five stations share a lump sum with no unit rate anywhere on the sheet.
-Both split evenly and flagged `is_source_traceable = 0`. $4,477,000 in total.
+3. **Monitor the Process**
+   - View logs in the console to verify successful data ingestion, processing, and storage.
 
-**Bridges at MP 16.9 and 28.8 are one asset each.** Each appears under both tie
-deck renewals and repairs. One bridge, two events. That is why Structures is 12
-assets and 14 events.
+4. **Check S3 Outputs**
+   - Verify that processed data is saved to the S3 output directory as CSV files.
 
-**Westport / Central / Hanover come from the brief, not the workbook.** Stamped
-on all 53 assets with `location_source` saying where they came from.
+---
 
-Also worth knowing: the $600,000 in I24 is not a cost, it marks which turnouts
-are Industry turnouts (600,000 / 150,000 = 4, and there are four industry rows).
-And cost type on the structures tab only exists as cell fill colour, which I
-cross-checked against the word "Engineering" in the description.
+## Configuration
+The following paths can be modified within each script to suit your environment:
+- **S3 Input Path**: Location of the raw input file.
+- **S3 Output Path**: Destination for processed files.
+- **Batch Intervals**: Time intervals used for aggregation.
 
-## Checks
+---
 
-Totals tie to the workbook to the cent, year by year rather than just on the
-grand total.
+## Error Handling
+Each script has an `Exception` handler to catch and print any errors encountered during data ingestion, transformation, or writing to S3.
 
-| | |
-|---|---|
-| Comms & Signals | $11,229,000.00 |
-| Track | $12,487,000.00 |
-| Structures | $12,147,330.32 |
+---
 
-The model build also checks foreign keys both directions, fact grain, that no
-dimension holds money, and that every event agrees with its own construction
-cost on the fiscal year.
-
-## Mapping
-
-The FRA line layer returns 93 segments for this subdivision and they do not
-join into one chain. They merge into five pieces. The longest is 55 miles and
-carries none of the mileposts we need; the right one is 50 miles and carries
-all 25 of MP 9 to 33. Picked by counting mileposts within 50 m of each piece,
-not by length.
-
-Each asset is then placed between the two nearest FRA milepost points.
-
-Sanity check: the T&S segments run MP 15.0 to 32.5, so 17.5 miles by
-definition. Measured along the placed geometry they come out at 17.59. FRA's
-mileposts are not exactly a mile apart, so that gap builds up over seventeen
-brackets.
-
-FRA calls its milepost positions approximate. Per the brief, the line is not
-the real one, so nothing here will match satellite imagery.
+## Contact
+For further information or queries regarding the project, please contact the project maintainer.
